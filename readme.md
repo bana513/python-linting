@@ -3,8 +3,8 @@
 - Check code syntax
 - Provide instructions on how to clean it
 - Prevent things like syntax errors, typos, bad formatting, incorrect styling, etc
-- If you working in the team, it saves time for people who are reviewing your code (no need to distrust for typos and formatting issues)
-
+- If you working in the team, it saves time for people who are reviewing your code (no need to distrust for typos and formatting issues).
+[Read more](https://medium.com/python-pandemonium/what-is-flake8-and-why-we-should-use-it-b89bd78073f2)
 
 1.  
     ```sh
@@ -18,7 +18,7 @@
     ```json
     {
         "cornflakes.linter.executablePath": "path/to/venvs/myvenv/bin/flake8",
-        "cornflakes.linter.run": "onType",  // Optional
+        "cornflakes.linter.run": "onType"
     }
     ```
 
