@@ -70,7 +70,7 @@
 # Static type checker: **mypy**
 1. 
     ```sh
-    pip install black
+    pip install mypy
     ```
 2.     
     ```sh

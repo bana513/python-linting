@@ -10,7 +10,7 @@ def f(x, y=None):
 
 
 def g(x: int, y: Optional[int] = None) -> int:
-    return "asd"
+    return 2
 
 
 Vector = List[float]
@@ -44,8 +44,11 @@ if __name__ == "__main__":
 
     x = 5 + 2
 
+    if x is None:
+        print("asd")
+
     # Long line
     print(
-        "asdasdasgdiausgduiasgduiasgdyas giudg aiusdg iausgd "
-        + "iuags diupags dipuag duiag sdiupags dasuigd "
+        "asdasdasgdiausgduiasgduiasgdyas giudg aiusdg "
+        + "iausgd iuags diupags dipuag duiag sdiupags dasuigd "
     )
